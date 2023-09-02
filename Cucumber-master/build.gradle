@@ -46,7 +46,7 @@ task automationTest(type: Test) {
         System.out.println(testValue)
 
         if (testValue.equals("addCustomer")) {
-            suites "src/test/Hibrid.xml"
+            suites "src/test/Cucumber.xml"
         }
     }
 }
